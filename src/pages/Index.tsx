@@ -4,11 +4,13 @@ import About from "@/components/About";
 import TechStack from "@/components/TechStack";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Index = () => {
   return (
     <div className="cursor-none">
       <CursorEffect />
+      <ThemeToggle />
       
       <main className="min-h-screen">
         <Hero />
